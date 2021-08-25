@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Introdução a firebas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html" >
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+
+<main id="centro">
+   
+    <br>
+    <div class="col-md-4">
+      <h3> Aqui você pode registrar produtos que estão em falta na loja</h3>
+        <form> 
+            <div class="form-group">
+                <label for="nameInput">Produto</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Nome">
+            </div>
+            <div class="form-group">
+                <label for="ageInput">Modelo e marca </label>
+                <input type="text" class="form-control" id="ageInput" placeholder="Digite aqui">
+                <br>
+                <button class=" btn btn-lg  btn-block  btn-danger" id="addButton" >Registrar</button>
+                <br>
+                <br>
+                <a class="button button-clear" href="index.html">Voltar para o Home </a>
+                <br><br>   
+            </div>
+        </form>
+
+        <ul id="usersList"></ul>
+        <hr>
+        
+    </div>
+</main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  
+    <script src="JS/app2.js"></script>
+    <script src="JS/real-time-databaseadm.js"></script>
+
+ 
+  </body>
+
+</html>
